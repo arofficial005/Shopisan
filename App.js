@@ -39,6 +39,8 @@ export default function App() {
       SplashScreen.hideAsync();
     }
   }, [loaded, error]);
+// Your web app's Firebase configuration
+// Your web app's Firebase configuration
 
   return (
     <Provider store={store}>
